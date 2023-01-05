@@ -1,0 +1,17 @@
+{
+    "name": "wesleylourenco1/projeto_uso_geral",
+    "description": "Modelo para inicialização de projetos novos, contendo biblíotecas úteis, classes de conexões, rotas, validações e respostas.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wesleylourenco1\\ProjetoUsoGeral\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wesley Lourenço"
+        }
+    ],
+    "require": {}
+}
