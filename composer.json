@@ -5,8 +5,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Wesleylourenco1\\ProjetoUsoGeral\\": "src/"
-            
+        "Controller\\": "app/Controller/",
+        "Model\\": "app/model/",
+        "Services\\":"app/Services"
         }
     },
     "authors": [

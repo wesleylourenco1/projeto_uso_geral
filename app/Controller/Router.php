@@ -68,7 +68,7 @@ class Router
                 throw new Exception("Função inválida ou Classe/Método inexistente. Verifique a rota.", 401);
             }
         } else {
-            throw new Exception("Página não encontrada " . $this->uri_parse, 404);
+             throw new Exception("Página não encontrada " . $this->uri_parse, 404);
         }
     }
     protected function verifyMethod()

@@ -10,10 +10,10 @@ class App extends Controller
     function __construct($rotas = [[], []])
     {
         try {
-            new envconfig();
+            // new envconfig();
             $this->index($rotas);
         } catch (\Exception $e) {
-            \Services\response::response("Data", $e->getCode(), $e->getMessage());
+             \Services\response::response("Data", $e->getCode(), $e->getMessage());
         }
     }
 
